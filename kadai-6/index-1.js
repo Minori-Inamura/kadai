@@ -1,0 +1,1 @@
+const obl1 = { func: () => console.log('Hi!')}
