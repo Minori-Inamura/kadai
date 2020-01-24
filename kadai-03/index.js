@@ -8,6 +8,9 @@ if (day % 3 === 0){
 } else if (day % 3 === 2){
     console.log('あなたは奔放な性格です')
 }
+
+//走らせ方　--->ターミナルで[node kadai-03/index.js (生年月日の日付)]
+
 //Example
 
 // 生まれた日を入力
