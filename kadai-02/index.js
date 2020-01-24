@@ -19,4 +19,4 @@ console.log(hasDog && !hasCat)
 const cat = 1
 const cats = 2
 //ﾈｺﾁｬﾝ......ﾈｺﾁｬﾝﾀｸｻﾝ......！
-console.log(cat + cats)
+console.log(cat + cats + 'cats!!!')
