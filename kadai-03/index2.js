@@ -1,20 +1,20 @@
 //　3の倍数でメッセージを表示する
 
-const max = parseInt(prosess.argv[2])
+//const max = parseInt(prosess.argv[2])
 
 
-for (let n = 1; n <= max; n = n + 1){
-    if(n % 3 === 0){
-        console.log('サァン！！！')
-    } else {
-        console.log(n)
-    }
-}
+//for (let n = 1; n <= max; n = n + 1){
+//    if(n % 3 === 0){
+ //       console.log('サァン！！！')
+ //   } else {
+ //       console.log(n)
+ //   }
+//}
 
 
 //Example
 
-// 3がつく数字の時にメッセージを表示する
+// 3と５倍数の時にメッセージを表示する
 
 const max = parseInt(process.argv[2])
 
