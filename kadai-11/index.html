@@ -1,7 +1,20 @@
 <html>
-<script>
-fetch('http.........')
-    .then(res => res.text())
-    .then(data => alart(data))
-</script>
+<head>
+<style>
+    button {
+        font-size: 50px;
+    }
+</style>
+</head>
+<body>
+    <button id="button">おみくじを引く</button>
+    <script>
+        const button = document.getElementById('button')
+        button.addEventListener('click', () => {
+            fetch('https://3000-b24641d0-2c66-48f1-a301-6b2246a1ce5a.ws-ap01.gitpod.io/kadai-08/')
+                .then(res => res .text())
+                .then(data => alert(data))
+        })
+    </script>
+</body>
 </html>

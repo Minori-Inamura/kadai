@@ -3,8 +3,8 @@ const url = require('url')
 
 const server = http.createServer((request, response) => {
 
-
-    const 
+    const res = response;
+    //const 
    // response.setHeader('Access-Control-Allow-Origin',)
     res.write('hello')
 	res.end()
