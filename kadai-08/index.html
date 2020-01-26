@@ -7,18 +7,24 @@
 </style>
 </head>
 <body>
-    <button id="button">omikkuji wo hiku</button>
+    <button id="button-">omikkuji wo hiku</button>
+    <label id="label-">unsei ?</label>
     <script>
-        const button = document.getElementId('button')
+        const button = document.getElementId('button-')
         button.addEventListener('click', () => {
+            const label = document.getElementId('label-')
             const num = Math.random()
             if(num < 0.5){
+                label.innerText ='kiti'
                 alert('吉です')
             } else if (num < 0.8){
+                label.innerText ='tyu'
                 alert('中吉です')
             } else if (num < 0.95){
+                label.innerText ='dai'
                 alert('大吉です')
             } else {
+                label.innerText ='kyo'
                 alert('凶')
             }
 
