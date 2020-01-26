@@ -9,5 +9,5 @@ const server = http.createServer((request, response) => {
     res.write('hello')
 	res.end()
 })
-server.listen(3000)
-console.log('Listening port 3000…')
+server.listen(4000)
+console.log('Listening port 4000…')
