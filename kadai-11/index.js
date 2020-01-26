@@ -1,6 +1,11 @@
 const http = require("http")
 const url = require('url')
 
+// 手順２. 次のコマンドでサーバーを起動
+// node kadai-11/index.js
+
+// 手順3. ブラウザでおみくじをひいて結果を確認
+
 const server = http.createServer((request, response) => {
     const res = response;
 
